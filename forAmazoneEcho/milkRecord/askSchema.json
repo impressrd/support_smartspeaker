@@ -1,0 +1,58 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "ミルクの記録",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "capacityIntent",
+          "slots": [
+            {
+              "name": "capacity",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "{capacity} 飲んだよ",
+            "{capacity} CC",
+            "{capacity} ミリリットル",
+            "{capacity}",
+            "{capacity} ミリリットル飲んだよ"
+          ]
+        },
+        {
+          "name": "todayMilkIntent",
+          "slots": [],
+          "samples": [
+            "今日の量を教えて",
+            "今日はどのくらいミルクを飲んだのか教えて",
+            "今日のミルクを教えて",
+            "今日のミルク"
+          ]
+        },
+        {
+          "name": "lastMilkIntent",
+          "slots": [],
+          "samples": [
+            "最後のミルクはいつ",
+            "最後のミルクを教えて",
+            "最後にミルクを飲んだのはいつ",
+            "最後のミルク"
+          ]
+        }
+      ],
+      "types": []
+    }
+  }
+}

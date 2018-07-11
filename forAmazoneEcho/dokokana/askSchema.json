@@ -1,0 +1,92 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "どこにいるのか",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "キャンセル"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "ヘルプ"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "おしまい"
+          ]
+        },
+        {
+          "name": "AMAZON.MoreIntent",
+          "samples": [
+            "もっと"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": [
+            "ホーム"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateSettingsIntent",
+          "samples": [
+            "設定"
+          ]
+        },
+        {
+           "name": "AMAZON.NextIntent",
+           "samples": [
+             "次"
+           ]
+        },
+        {
+          "name": "AMAZON.PageUpIntent",
+          "samples": [
+            "上"
+          ]
+        },
+        {
+          "name": "AMAZON.PageDownIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PreviousIntent",
+          "samples": [
+            "戻る"
+          ]
+        },
+        {
+          "name": "AMAZON.ScrollRightIntent",
+          "samples": [
+            "右"
+          ]
+        },
+        {
+          "name": "AMAZON.ScrollDownIntent",
+          "samples": [
+            "下がって"
+          ]
+        },
+        {
+          "name": "AMAZON.ScrollLeftIntent",
+          "samples": [
+            "左"
+          ]
+        },
+        {
+          "name": "AMAZON.ScrollUpIntent",
+          "samples": [
+            "上がって"
+          ]
+        }
+      ],
+      "types": []
+    }
+  }
+}

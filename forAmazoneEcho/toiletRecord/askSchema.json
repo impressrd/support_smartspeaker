@@ -1,0 +1,56 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "トイレの記録",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "check",
+          "slots": [],
+          "samples": [
+            "結果を教えて",
+            "確認する",
+            "チェックする",
+            "チェックしたい",
+            "チェック",
+            "確認したい",
+            "確認"
+          ]
+        },
+        {
+          "name": "soto",
+          "slots": [],
+          "samples": [
+            "外でトイレ行けたよ",
+            "外でできた",
+            "外"
+          ]
+        },
+        {
+          "name": "uchi",
+          "slots": [],
+          "samples": [
+            "お家でトイレできたよ",
+            "いえ",
+            "家",
+            "ウチ",
+            "内",
+            "うち"
+          ]
+        }
+      ],
+      "types": []
+    }
+  }
+}

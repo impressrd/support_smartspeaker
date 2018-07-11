@@ -1,0 +1,36 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "お外",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "record",
+          "slots": [],
+          "samples": [
+            "オシッコ行ったよ",
+            "トイレ行ったよ",
+            "行ったよ",
+            "行けたよ",
+            "トイレ行けたよ",
+            "オシッコできたよ",
+            "おしっこできたよ",
+            "トイレできたよ"
+          ]
+        }
+      ],
+      "types": []
+    }
+  }
+}
